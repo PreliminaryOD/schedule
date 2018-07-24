@@ -1,0 +1,25 @@
+@import 'p1';
+@import 'p2';
+// @import 'var';
+
+$color-purple: #6F48CE;
+$color-light-blue: #32CBE8;
+$color-blue: #487BCE;
+$color-gray: #4D4D4D;
+$color-subtle-gray: rgba(255, 255, 255, 0.52);
+$color-subtle-black: #333;
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1.75fr 1fr;
+    grid-template-rows: 1fr;
+}
+

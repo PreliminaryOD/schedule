@@ -1,0 +1,12 @@
+$color-purple: #6F48CE;
+$color-light-blue: #32CBE8;
+.p2 {
+    grid-column: 2;
+    &_bck {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(120deg, $color-purple 0%, $color-light-blue 100%);
+        z-index: -10;
+    }
+}
